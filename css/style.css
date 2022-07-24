@@ -1,0 +1,64 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../img/tile_background.png);
+}
+
+.navbar {
+  box-shadow: 0px 5px 5px 3px #f8f9fa;
+}
+
+.home-photo {
+  border-radius: 25%;
+}
+
+.spacer {
+  aspect-ratio: 900/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url(../img/top-layered-waves-haikei.svg);
+  transform: translateY(3px);
+}
+
+.layer2 {
+  background-image: url(../img/bot-layered-waves-haikei.svg);
+  transform: translateY(-3px);
+}
+
+
+#skills {
+  background-image: url(../img/inverted_tile_background.png);
+}
+
+.skills-title {
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.skills-item {
+  color: black;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.layer3 {
+  background-image: url(../img/top-layered-peaks-haikei.svg);
+  transform: translateY(3px);
+}
+
+.layer4 {
+  background-image: url(../img/bot-peaks-haikei.svg);
+  transform: translateY(-3px);
+}
+
+#freelance {
+  background-color: #871400;
+}
